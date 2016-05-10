@@ -1,0 +1,10 @@
+{
+   "content_scripts": [ {
+      "js": [ "tco.js" ],
+      "matches": [ "http://*.twitter.com/*", "https://*.twitter.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "manifest_version": 2,
+   "name": "No t.co links",
+   "version": "0.1"
+}
